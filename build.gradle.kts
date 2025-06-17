@@ -18,6 +18,7 @@ plugins {
     id(Plugins.Android.library) version Dependencies.gradleVersion apply false
     id(Plugins.JetBrains.android) version Dependencies.kotlinVersion apply false
     id(Plugins.JetBrains.jvm) version Dependencies.kotlinVersion apply false
+    id(Plugins.JetBrains.composeCompiler) version Dependencies.kotlinVersion apply false
     id(Plugins.JetBrains.serialization) version Dependencies.KotlinX.jsonSerializationVersion apply false
     id(Plugins.sqlDelight) version Dependencies.SqlDelight.version apply false
     id(Plugins.hilt) version Dependencies.Dagger.daggerVersion apply false

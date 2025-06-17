@@ -4,6 +4,7 @@ plugins {
     id(Plugins.hilt)
     id(Plugins.ksp)
     id(Plugins.googleServices)
+    id(Plugins.JetBrains.composeCompiler)
     kotlin(Plugins.serialization)
 }
 
@@ -52,13 +53,10 @@ dependencies {
     api(project(mapOf("path" to ":network")))
     api(project(mapOf("path" to ":preferences")))
 
-//    implementation(Dependencies.Compose.compiler)
     implementation(Dependencies.Compose.runtime)
     implementation(Dependencies.Compose.foundation)
     implementation(Dependencies.Compose.ui)
     implementation(Dependencies.Compose.preview)
-//    implementation(Dependencies.Compose.animation)
-//    implementation(Dependencies.Compose.material)
 
     implementation(Dependencies.AndroidX.core)
     implementation(Dependencies.AndroidX.appCompat)
