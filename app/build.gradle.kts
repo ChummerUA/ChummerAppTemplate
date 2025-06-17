@@ -61,8 +61,8 @@ dependencies {
 //    implementation(Dependencies.Compose.material)
 
     implementation(Dependencies.AndroidX.core)
-//    implementation(Dependencies.AndroidX.appCompat)
-//
+    implementation(Dependencies.AndroidX.appCompat)
+
     implementation(Dependencies.AndroidX.Lifecycle.process)
     implementation(Dependencies.AndroidX.Lifecycle.runtime)
     implementation(Dependencies.AndroidX.Lifecycle.viewModelCompose)

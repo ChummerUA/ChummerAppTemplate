@@ -16,6 +16,7 @@ object Dependencies {
         const val composeNavigation =
             "androidx.navigation:navigation-compose:$composeNavigationVersion"
         const val work = "androidx.work:work-runtime-ktx:2.10.1"
+        const val appCompat = "androidx.appcompat:appcompat:1.7.1"
 
         object Activity {
             private const val root = "androidx.activity"
