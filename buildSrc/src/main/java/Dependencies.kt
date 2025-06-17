@@ -1,7 +1,7 @@
 object Dependencies {
-    const val gradleVersion = "8.9.0"
-    const val kotlinVersion = "1.9.10"
-    const val kspVersion = "1.9.10-1.0.13"
+    const val gradleVersion = "8.9.2"
+    const val kotlinVersion = "2.1.21"
+    const val kspVersion = "2.1.21-2.0.1"
     private const val ktxVersion = "1.10.1"
     const val googleServicesVersion = "4.4.2"
     private const val composeNavigationVersion = "2.9.0"

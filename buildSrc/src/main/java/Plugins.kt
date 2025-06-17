@@ -8,9 +8,11 @@ object Plugins {
     }
 
     object JetBrains {
-        const val android = "org.jetbrains.kotlin.android"
-        const val jvm = "org.jetbrains.kotlin.jvm"
-        const val serialization = "org.jetbrains.kotlin.plugin.serialization"
+        private const val root = "org.jetbrains.kotlin"
+        const val android = "$root.android"
+        const val jvm = "$root.jvm"
+        const val composeCompiler = "$root.plugin.compose"
+        const val serialization = "$root.plugin.serialization"
     }
 
     object Maven {
