@@ -47,7 +47,6 @@ object Dependencies {
         private const val root = "io.ktor"
         private const val version = "2.3.2"
         const val core = "$root:ktor-client-core:${version}"
-        const val okhttp = "$root:ktor-client-okhttp:${version}"
         const val contentNegotiation = "$root:ktor-client-content-negotiation:${version}"
         const val jsonSerialization = "$root:ktor-serialization-kotlinx-json:${version}"
     }
@@ -99,7 +98,6 @@ object Dependencies {
         const val daggerVersion = "2.48.1"
         private const val root = "com.google.dagger"
         const val hilt = "$root:hilt-android:${daggerVersion}"
-        const val hiltClassPath = "$root:hilt-android-gradle-plugin:${daggerVersion}"
         const val compiler = "$root:dagger-compiler:${daggerVersion}"
         const val hiltCompiler = "$root:hilt-compiler:${daggerVersion}"
     }

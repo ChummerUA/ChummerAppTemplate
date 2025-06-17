@@ -15,10 +15,6 @@ object Plugins {
         const val serialization = "$root.plugin.serialization"
     }
 
-    object Maven {
-        const val publish = "maven-publish"
-    }
-
     const val sqlDelight = "app.cash.sqldelight"
 
     const val serialization = "plugin.serialization"
