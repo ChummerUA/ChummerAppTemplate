@@ -3,7 +3,7 @@ object Dependencies {
     const val kotlinVersion = "1.9.10"
     const val kspVersion = "1.9.10-1.0.13"
     private const val ktxVersion = "1.10.1"
-    const val googleServicesVersion = "4.4.0"
+    const val googleServicesVersion = "4.4.2"
     private const val composeNavigationVersion = "2.9.0"
 
     const val gradle = "com.android.tools.build:gradle:${gradleVersion}"
@@ -119,5 +119,10 @@ object Dependencies {
         const val db = "$root:db:$version"
         const val network = "$root:network:$version"
         const val preferences = "$root:preferences:$version"
+    }
+
+    object Firebase {
+        const val bom = "com.google.firebase:firebase-bom:33.15.0"
+        const val analytics = "com.google.firebase:firebase-analytics"
     }
 }

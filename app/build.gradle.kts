@@ -83,7 +83,7 @@ dependencies {
 
     implementation(Dependencies.AndroidX.work)
     coreLibraryDesugaring(Dependencies.desugaring)
-//
-//    implementation(platform(Dependencies.Firebase.bom))
-//    implementation(Dependencies.Firebase.analytics)
+
+    implementation(platform(Dependencies.Firebase.bom))
+    implementation(Dependencies.Firebase.analytics)
 }
