@@ -41,4 +41,5 @@ dependencies {
     ksp(Dependencies.Dagger.compiler)
     ksp(Dependencies.Dagger.hiltCompiler)
     coreLibraryDesugaring(Dependencies.desugaring)
+    implementation(Dependencies.DataStore.dataStore)
 }
